@@ -1,5 +1,6 @@
 import 'package:app_name/src/preferences/base_preferences.dart';
-import 'package:app_name/src/screens/home_screen.dart';
+import 'package:app_name/src/screens/splash_screen.dart';
+import 'package:app_name/src/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
@@ -14,12 +15,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'app_name',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
-        useMaterial3: true,
-      ),
-      home: const HomeScreen(),
+      title: 'BUSKO',
+      theme: AppTheme.lightTheme,
+      home: const SplashScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
