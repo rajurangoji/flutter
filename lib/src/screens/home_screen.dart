@@ -7,7 +7,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home Screen'),
+        title: const Text('Home Screen test raju'),
       ),
       body: Container(
         decoration: const BoxDecoration(
@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
         ),
         child: const Center(
           child: Text(
-            'Welcome to My App',
+            'Welcome to My App raju',
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,
